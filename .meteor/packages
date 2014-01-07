@@ -13,3 +13,7 @@ less
 accounts-ui
 accounts-entry
 accounts-password
+moment
+underscore
+peerdb
+accounts-facebook

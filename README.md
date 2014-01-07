@@ -4,13 +4,16 @@
 
 - **File Structure**
 - accounts-entry
+- accounts-facebook
 - coffeescript
 - LESS
 - iron-router
 - accounts-entry
 - bootstrap3
 - font-awesome4
-
+- peerdb
+- moment
+- nprogress
 
 ### File Structure
 
@@ -33,6 +36,7 @@ client
     └── header.html
     └── footer.html
 collections
+  └── collections.coffee
 packages
 public
   ├── fonts

@@ -1,7 +1,16 @@
 {
   "packages": {
-    "iron-router": {},
+    "bootstrap-3": {},
+    "font-awesome": {},
+    "nprogress": {},
     "accounts-entry": {},
-    "handlebars-server": {}
+    "moment": {},
+    "bootstrap3-wysihtml5": {
+      "path": "/root/meteordev/meteor-bootstrap3-wysihtml5"
+    },
+    "houston": {},
+    "collection-hooks": {},
+    "peerdb": {},
+    "profile-online": {}
   }
 }

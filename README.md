@@ -16,7 +16,7 @@ Once you have cloned the boilerplate, you need to change the repository destinat
 Enter the following command in the console to set the new remote address for `git`.
 
 ```
-git remote set-url remote_name {new_url}
+git remote set-url origin {new_url}
 ```
 
 ### Packages

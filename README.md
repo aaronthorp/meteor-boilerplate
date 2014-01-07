@@ -1,5 +1,7 @@
 # meteor-boilerplate
 
+**Last Updated:** 2014-01-07
+
 ### Installation
 
 Install by cloning the repository using `git clone https://github.com/aaronthorp/meteor-boilerplate.git` and `mrt` or `./dev` to launch the boilerplate.
@@ -30,6 +32,7 @@ The default port for the `dev` script is `4000` and the default MongoDB is `mong
 ```
 .meteor
 client
+  └── subscriptions.js
   └── lib
     └── router
       └── route-config.js
@@ -60,4 +63,7 @@ public
   ├── fonts
   └── img
 server
+  └── publish
+    └── publish.js
+  └── methods
 ```

@@ -10,6 +10,15 @@ If you are running in a development environment, you can use the `dev` program t
 
 The default port for the `dev` script is `4000` and the default MongoDB is `mongodb://localhost/boiler`. You may need to `chmod 777 dev` in order to run `./dev`.
 
+### Changing Repositories
+
+Once you have cloned the boilerplate, you need to change the repository destination to your project. Once you have a new repository configured on github.
+Enter the following command in the console to set the new remote address for `git`.
+
+```
+git remote set-url remote_name {new_url}
+```
+
 ### Packages
 
 - **File Structure**

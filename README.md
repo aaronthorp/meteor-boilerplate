@@ -2,7 +2,7 @@
 
 ### Installation
 
-Install by cloning the repository using `git clone https://github.com/aaronthorp/meteor-bootstrap3-wysihtml5.git`
+Install by cloning the repository using `git clone https://github.com/aaronthorp/meteor-boilerplate.git` and `mrt` or `./dev` to launch the boilerplate.
 
 If you are running in a development environment, you can use the `dev` program to launch the application with custom parameters.
 

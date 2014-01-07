@@ -23,7 +23,7 @@ The default port for the `dev` script is `4000` and the default MongoDB is `mong
 - peerdb
 - moment
 - nprogress
-- user-sessions
+- user-sessions *(internal script in `lib/`)*
 
 ### File Structure
 

@@ -82,5 +82,5 @@ By donating you are supporting this package and its developer so that he may con
 
 [![Support us via Gittip][gittip-badge]][aaronthorp]
 
-[gittip-badge]: https://rawgithub.com/aaronthorp/gittip-badge/master/dist/gittip.png
+[gittip-badge]: https://raw.github.com/twolfson/gittip-badge/0.1.0/dist/gittip.png
 [aaronthorp]: https://www.gittip.com/aaronthorp/

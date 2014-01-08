@@ -1,3 +1,5 @@
+Router.before(function () { Alerts.removeSeen(); });
+
 Router.configure({
   layoutTemplate: 'layout',
   notFoundTemplate: '404',

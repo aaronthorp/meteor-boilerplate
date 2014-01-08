@@ -8,9 +8,8 @@
     "bootstrap3-wysihtml5": {
       "path": "/root/meteordev/meteor-bootstrap3-wysihtml5"
     },
-    "houston": {},
-    "collection-hooks": {},
     "peerdb": {},
-    "profile-online": {}
+    "profile-online": {},
+    "bootstrap-alerts": {}
   }
 }

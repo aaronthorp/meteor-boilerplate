@@ -10,10 +10,9 @@
       "bootstrap3-wysihtml5": {
         "path": "../meteordev/meteor-bootstrap3-wysihtml5"
       },
-      "houston": {},
-      "collection-hooks": {},
       "peerdb": {},
-      "profile-online": {}
+      "profile-online": {},
+      "bootstrap-alerts": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -44,16 +43,6 @@
       "bootstrap3-wysihtml5": {
         "path": "../meteordev/meteor-bootstrap3-wysihtml5"
       },
-      "houston": {
-        "git": "https://github.com/gterrono/meteor-admin-ui.git",
-        "tag": "v1.0.0",
-        "commit": "e98660af09cb3e4e90848abfe943a06e7068cccc"
-      },
-      "collection-hooks": {
-        "git": "https://github.com/matb33/meteor-collection-hooks.git",
-        "tag": "v0.6.1",
-        "commit": "f8baa3b5a56ab35272c9260c623e1ae85ade6596"
-      },
       "peerdb": {
         "git": "https://github.com/peerlibrary/meteor-peerdb.git",
         "tag": "v0.3.5",
@@ -64,20 +53,15 @@
         "tag": "v0.1.9",
         "commit": "a982f18f22cb2025a02a9b38815c68e23469cd4b"
       },
+      "bootstrap-alerts": {
+        "git": "https://github.com/asktomsk/bootstrap-alerts.git",
+        "tag": "v0.0.3",
+        "commit": "09c69da4bfb7cf960f34f8844729af725a8b2098"
+      },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.6.1",
         "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
-      },
-      "paginated-subscription": {
-        "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
-        "tag": "v0.1.2",
-        "commit": "35e0c6112df2b4cfeb60b559276a93cac5ee2dd6"
-      },
-      "spin": {
-        "git": "https://github.com/SachaG/meteor-spin.git",
-        "tag": "v0.2.0",
-        "commit": "fd3a2871a69442848b4b4e74f5e1ae28fa4a95a4"
       },
       "util": {
         "git": "https://github.com/peerlibrary/meteor-util.git",

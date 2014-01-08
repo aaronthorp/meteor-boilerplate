@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
 insecure
 preserve-inputs
 iron-router
@@ -19,3 +18,4 @@ peerdb
 accounts-facebook
 bootstrap3-wysihtml5
 nprogress
+bootstrap-alerts

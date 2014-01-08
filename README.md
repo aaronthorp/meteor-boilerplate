@@ -34,7 +34,11 @@ git remote set-url origin {new_url}
 - peerdb
 - moment
 - nprogress
-- user-sessions *(internal script in `lib/`)*
+- user-session *(internal script in `lib/`)*
+- bootstrap-alerts
+- profile-online
+
+The packages `autopublish` and `insecure` have been removed.
 
 ### File Structure
 

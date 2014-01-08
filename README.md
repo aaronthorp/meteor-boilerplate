@@ -1,6 +1,6 @@
 # meteor-boilerplate
 
-**Last Updated:** 2014-01-07
+**Last Updated:** 2014-01-09
 
 ### Installation
 
@@ -21,7 +21,6 @@ git remote set-url origin {new_url}
 
 ### Packages
 
-- **File Structure**
 - accounts-entry
 - accounts-facebook
 - coffeescript
@@ -59,11 +58,11 @@ client
     └── dashboard
       ├── dashboard.html
       ├── dashboard.less
-      └── dashboard.coffee
+      └── dashboard.js
     └── home
       ├── home.html
       ├── home.less
-      └── home.coffee
+      └── home.js
     └── index.html
     └── header.html
     └── footer.html

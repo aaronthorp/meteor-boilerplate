@@ -1,15 +1,12 @@
-@ClientCollection = new Meteor.Collection("clients",
+@GameCollection = new Meteor.Collection("games",
   transform: (document) ->
-    new Client(document)
+    new Game(document)
 )
  
-class @Client extends Document
+class @Game extends Document
   # Other fields:
   #   body
   # add custom fields here
     
   @Meta
-    collection: ClientCollection
-    fields:
-      # We can reference other document
-      owner: @ReferenceField Meteor.users, ['profile.firstName']
+    collection: GameCollection

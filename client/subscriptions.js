@@ -1,5 +1,3 @@
 Deps.autorun(function() {
-
-  Subs_Clients = Meteor.subscribe("clients", Meteor.userId());
-
+  Subs_Games = Meteor.subscribe("myGames", Meteor.userId());
 });

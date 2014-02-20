@@ -17,6 +17,7 @@ Router.configure({
 Router.map(function() {
   
   this.route('home', {
+    controller: 'LoginController',
     path: '/'
   });
 

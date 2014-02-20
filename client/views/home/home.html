@@ -1,5 +1,22 @@
 <template name="home">
-  <p>Welcome to my new meteor app</p>
-  <p><strong>UserSession Var: </strong>{{variable}}</p>
-  <p>Goto <a href="{{pathFor 'dashboard'}}">Dashboard</a></p>
+  <p>Welcome to my new meteor multiplayer app</p>
+  
+  <p><strong> Current Game Status: </strong>
+  {{#if game.active}}
+    Game is in play! <a href="#" id="finishGame">Finish Game</a>.
+  {{else}}
+    {{#if game.finished}}
+      Game Completed or other player left. <a href="#" id="newGame">Start New Game</a>
+    {{else}}
+      Waiting for other player... <a href="#" id="newGame">Find New Game</a>
+    {{/if}}
+  {{/if}}
+  </p>
+  
+  <p><strong> Current Game ID: </strong>{{game._id}}</p>
+  <p><strong> Current Game Player Count: </strong>{{game.players.length}}</p>
+ 
+  <p><strong> Current Game Active: </strong>{{game.active}}</p>
+  
+  <p><a href="{{pathFor 'entrySignOut'}}">Logout</a></p>
 </template>

@@ -1,12 +1,12 @@
-Meteor.publish('clients', function() {
+Meteor.publish('games', function() {
  
   if (!this.userId) {
-      console.log('Clients Un-Publish');
+      console.log('Games Un-Publish');
       //return [];
       this.ready();
   } else {
-    console.log('Clients Publish: U-'+this.userId);
-    return ClientCollection.find({'user': this.userId});
+    console.log('Games Publish: U-'+this.userId);
+    return ClientCollection.find({'player._id': this.userId});
   }
 
 });

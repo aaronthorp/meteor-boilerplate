@@ -1,6 +1,6 @@
 #/bin/bash
 export MONGO_URL=mongodb://localhost/sciparo
 export MONGO_OPLOG_URL=mongodb://localhost/local
-export ROOT_URL=http://dev.sciparo.com
+export ROOT_URL=http://sciparo.com
 export DISABLE_WEBSOCKETS=true
-mrt run --port 4011
+mrt run --port 3011
